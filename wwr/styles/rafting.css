@@ -1,11 +1,12 @@
 :root{
   --primary-color:white;
-  --secondary-color:red;
-  --accent1-color:pink;
-  --accent2-color:yellow;
+  --secondary-color:black;
+  --accent1-color:wheat;
+  --accent2-color:orange;
   --heading-font:"Times New Roman","Georgia",serif;
   --body-font: Arial, Helvetica,sans-serif;
 }
+
 header{
 background-color: var(--primary-color);
 color:var(--accent2-color)
@@ -61,7 +62,6 @@ h1{
     text-align: center;
     opacity:.8;
     background-color:wheat ;
-    
 }
 
 
@@ -77,9 +77,10 @@ h1{
     /* text-align:left; */
     opacity:.7;
     background-color:whitesmoke ;
-    color: #000;
+    color:var(--secondary-color);
 
 }
+ 
 h1,h2{
     background-color: wheat;
     text-align: center;
@@ -91,10 +92,8 @@ h1,h2{
     /* position: absolute; */
     /* top: 450px; */
     float:right;
-    width: 125px;
-    
+    width: 125px;    
     /* display: block; */
     /* margin: 5px 0 65px 0; */
-    
 }
 
