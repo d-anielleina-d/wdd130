@@ -1,0 +1,22 @@
+nav{background-color: #d9f;
+    display: block; 
+
+}
+    nav a {
+    color: #09f;
+    display: block; 
+    padding: 20px;
+}
+nav img{
+    border-radius: 70%;
+}
+footer{
+    background-color: #d9f;
+    text-align: center;
+}
+p{
+
+}
+.tito{
+    
+}
