@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/a.jpg);
+    background-image: url(images/a.jpg) 200px;
     /* background-image: url(marshmellow.jpg); */
     /* background-color: red; */
 }
@@ -10,5 +10,9 @@ h5 {
     /* position: absolute; */
     align-items: center;
     /* justify-content: center; */
-    background-color: red;
+    background-color: rgb(245 222 179);
+}
+
+h2 {
+    background-color: rgb(255 165 0);
 }

@@ -10,7 +10,7 @@
 
 header {
     /* background-color: var(--primary-color); */
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 
 }
 
@@ -28,6 +28,15 @@ body {
 
 }
 
+.headcover {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    /* justify-content: start; */
+    float: left;
+    width: 100px;
+}
+
 header,
 main,
 footer {
@@ -38,7 +47,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color)
+    color: var(--secondary-color)
 }
 
 nav,
@@ -142,7 +151,9 @@ h2 {
     margin: 9px 8px 0 1px;
 }
 
-.eight figure {
+/* 26-09-2026 */
+/* trial */
+.eight div {
     /* background-color: black; */
     display: grid;
     grid-template-columns: repeat(5, 1fr);
