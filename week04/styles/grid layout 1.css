@@ -1,0 +1,21 @@
+.grid-container {
+    background-color: red;
+    padding: 10px;
+    display: grid;
+    /* grid-gap: 30px; */
+    /* grid-template-columns: 1fr 2fr auto; */
+    /* can also be : */
+    /* grid-template-columns:200px 200px 400px */
+    /* can also use auto if you don't want to use px */
+    /* for 3 equal rows, it can be : */
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.grid-item {
+    background-color: #dcebf8;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}

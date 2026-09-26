@@ -1,30 +1,39 @@
-
-
-*{
-    padding:0; 
-    margin:0; 
-    box-sizing:border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-:root{--high-end:darkblue;
-      --textalign-center:center;
-      /* --wildcard:padding:0; margin:0; box-sizing:border-box; */
 
+:root {
+    --high-end: darkblue;
+    --textalign-center: center;
+    /* --wildcard:padding:0; margin:0; box-sizing:border-box; */
 
 }
+
 nav {
-    background-color:var(--high-end);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--high-end);
     padding:
         10px
 }
 
+/* 2026 september 24th  trial */
 nav a {
+    /* display: flex;
+    flex-wrap: wrap; */
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 
 h1 {
+    width: 60%;
     color: var(--high-end);
+    border-bottom: 3px solid var(--high-end);
 }
 
 main img {
@@ -35,7 +44,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin:0 0 1rem 1rem;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -44,7 +53,8 @@ p {
 }
 
 main {
-    max-width:840px;
+    grid-column: 2;
+    max-width: 840px;
 }
 
 /*Example aside {
@@ -58,8 +68,9 @@ color: #333;
 
 text-align: center*/
 aside {
+    grid-row: 1/2;
     width: 30rem;
-/*  margin: 1rem; */
+    /*  margin: 1rem; */
     /* border: 6px solid rgba(200, 70, 20, .1); */
     /* padding: 2px; */
     /* background-color: #dde0fe; */
@@ -74,6 +85,7 @@ p {
 }
 
 aside img {
+
     width: 200px;
     height: auto;
 }
@@ -81,34 +93,47 @@ aside img {
 footer {
     margin-top: 30px;
     border-top: 3px solid var(--high-end);
-    text-align: center;}
+    text-align: center;
+}
 
-    /* Class Selectors */
+/* Class Selectors */
 .box {
-    margin:1rem;
-    padding:1rem;
-    background-color:var(--high-end);
-    border:1px solid rgba(0,0,0,.1);
-    color:#59ff3e;
-    }
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--high-end);
+    border: 1px solid rgba(0, 0, 0, .1);
+    color: #59ff3e;
+}
 
-
-a   {
+a {
     /* color:#000; */
     /* background-color:#fff  */
 }
 
 aside h2 {
-       position:absolute;
-       left: 214px;
-       top: 12px;
+    position: absolute;
+    left: 214px;
+    top: 12px;
 
+    /* bottom: 150px; */
 
-       /* bottom: 150px; */
+}
 
-    }
-.indent{
-        padding-left: 2rem;
-    }
+.indent {
+    padding-left: 2rem;
+}
 
-    /*  */
+header,
+.grid,
+footer {
+    max-width: 840px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-wrap: wrap-reverse; */
+    order: -2
+}
+
+/*  */
