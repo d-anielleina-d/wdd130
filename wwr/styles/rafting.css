@@ -3,7 +3,7 @@
     --secondary-color: black;
     --tertiary-color: brown;
     --accent1-color: wheat;
-    /* --accent2-color: orange; */
+    --accent2-color: orange;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -90,9 +90,13 @@ h1 {
     /* padding:1px; */
     /* text-align:left; */
     opacity: .7;
-    background-color: whitesmoke;
+    background-color: var(--accent2-color);
     color: var(--secondary-color);
 
+}
+
+figcaption {
+    color: var(--accent2-color)
 }
 
 h1,
@@ -148,7 +152,7 @@ h2 {
 }
 
 .hisp1,
-phisp2 {
+.hisp2 {
     color: var(--secondary-color);
 }
 
