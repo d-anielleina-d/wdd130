@@ -1,9 +1,9 @@
 :root {
-    --primary-color: floralwhite;
+    --primary-color: yellow;
     --secondary-color: black;
     --tertiary-color: brown;
     --accent1-color: wheat;
-    --accent2-color: orange;
+    /* --accent2-color: orange; */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -115,7 +115,7 @@ h2 {
 .grid nav {
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
     background-color: var(--tertiary-color);
 
 }
@@ -145,6 +145,11 @@ h2 {
 
     display: grid;
     grid-template-columns: 4fr 1fr 3fr
+}
+
+.hisp1,
+phisp2 {
+    color: var(--secondary-color);
 }
 
 .hisi1 {
