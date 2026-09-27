@@ -1,9 +1,9 @@
 :root {
-    --primary-color: yellow;
+    --primary-color: purple;
     --secondary-color: black;
     --tertiary-color: brown;
     --accent1-color: wheat;
-    /* --accent2-color: orange; */
+    --accent2-color: orange;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
