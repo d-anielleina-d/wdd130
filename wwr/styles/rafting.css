@@ -47,7 +47,10 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    /* background-color: yellow; */
+    text-align: center;
+    width: 100%;
 }
 
 nav,
@@ -97,13 +100,6 @@ h1 {
 
 figcaption {
     color: var(--secondary-color)
-}
-
-h1,
-h2 {
-    /* background-color: yellow; */
-    text-align: center;
-    width: 100%;
 }
 
 .hero article img {
