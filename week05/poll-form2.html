@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll-form</title>
+    <link rel="stylesheet" href="styles/poll-form">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">you</a>
+            <a href="">ok</a>            
+        </nav>
+    </header>
+    <main>
+        <form >
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname" >Fullname</label>
+                <input type="text" id="fullname" name="fullname " required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="quantity"> What is your favorite internet browser</label>
+                <select name="quantity" id="quantity">
+                    <option value="1">Chrome</option>
+                    <option value="2">Opera-mini</option>
+                    <option value="3">Microsoft Edge</option>
+                </select>
+                <label for="checkbox">Do you have a household pet</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="radio">Do you have a household pet</label>
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">Do you have a household pet</label>
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">Do you have a household pet</label>
+                <input type="radio" name="radio" id="radio">
+                <Label for="text-area">List the places you have lived</Label>
+                <textarea name="text-area" id="text-area" >Lagos Nigeria, Accra Ghana,</textarea>
+                <textarea name="text-area" id="text-area" >Leave your comment here</textarea>
+                <textarea name="text-area" id="text-area" placeholder="or here"></textarea>
+                <textarea name="text-area" id="text-area" placeholder="or here">THE FIRST AND THIRD USES THE TEXT BETWEEN THE OPENING AND CLOSING TAG WHILE THE SECOND ONE USES A PLACEHOLDER</textarea>
+                <button>Submit</button>
+            </fieldset>
+            <label for="contact"></label>
+        </form>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>

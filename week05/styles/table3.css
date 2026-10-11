@@ -1,0 +1,18 @@
+body{background-color:lightgray;}
+table{border-collapse:collapse;
+    border: 2px solid black;
+    letter-spacing: 1px;
+}
+
+th , td{border: 1px solid red;
+padding: 8px 12px;
+text-align: center;
+}
+
+thead tr , tfoot tr{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+

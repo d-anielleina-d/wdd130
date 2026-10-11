@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    Input Attributes
+Input elements use attributes to control how they behave and process user input. Understanding these attributes helps you create forms that work correctly and provide a good user experience.
+
+Important input attributes include:
+
+type – Defines the kind of input (text, email, password, etc.)
+name – The label that the value is sent under when the form is submitted (it does not have to be unique)
+id – A unique identifier on the page, used to connect a label to its input
+required – Makes a field mandatory to fill out
+placeholder – Shows example text inside an input field (it is not a substitute for a label)
+value – Sets a default value for the input field
+
+
+<form>
+    <label for="fullname"> Full Name: </label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="Phone"> Phone Number</label>
+    <input type="text" id="Phone" name="Phone" placeholder="123-456-7890">
+
+    <button type="submit">Submit Contact Information</button>
+</form>
+</body>
+</html>

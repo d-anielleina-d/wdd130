@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <form>
+        
+    <header>
+        <h1>WDD 130|HTML Form - User poll</h1>
+    </header>
+        <main>
+            <fieldset>
+                <legend>Contact Information</legend> 
+                
+                <div class="form-item label-narrow">
+                    <label for="fullname"> Full Name: </label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item label-narrow ">
+                    <label for="email"> Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+            </fieldset>
+
+    
+  
+            <fieldset>
+                <legend >Questions</legend> 
+                <div class="form-item label-wide">
+                    <label for="fave-browser"></label>What is your favorite internet browser ? </label>
+                    <select name="fave-browser" id="fave-browser" >
+                        <option value="v1">Chrome</option>
+                        <option value="v2">Microsoft Edge</option>
+                        <option value="v3">Opera-mini</option>
+                    </select>
+                </div>
+
+                <div class="form-item label-wide">
+                    <label for="home-pet">Do you have a household pet ? </label>
+                    <input type="checkbox" id="home-pet" name="home-pet">
+                </div>
+                <div class="form-item">
+                    <label for="places-lived">List the places you have lived: </label>
+                    <textarea name="places-lived" id="places-lived" >Lagos Nigeria , Accra Ghana ... clean the text before listing yours </textarea>
+                    </div>
+                <div class="form-item trey">
+                    <button>Submit</button>
+                </div>
+            </fieldset>      
+        </main>
+
+        <footer>
+            © 2026|HTML F0rm - User Poll Activity|Daniel Nkwocha
+        </footer>
+    
+</form>
+</body>
+</html>
