@@ -86,15 +86,16 @@ h1 {
 }
 
 .hero article {
+
     position: absolute;
     bottom: 20px;
     width: 820px;
     height: 150px;
     /* padding:1px; */
     /* text-align:left; */
-    opacity: .7;
-    /* background-color: var(--accent2-color); */
-    color: var(--secondary-color);
+    /* opacity: .7; */
+    background-color: var(--tertiary-color);
+    color: var(--accent1-color);
 
 }
 
@@ -111,26 +112,26 @@ figcaption {
     /* display: block; */
     /* margin: 5px 0 65px 0; */
 }
-.grid{
-    display:grid;
+
+.grid {
+    display: grid;
     grid-template-columns: 2fr;
 
 }
+
 .grid nav {
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
     background-color: var(--tertiary-color);
 }
 
 .flex div {
     display: flex;
-    gap: 1px; /* space between items */
-    justify-content: space-evenly; 
-    align-items: center; 
-    
-
-   
+    gap: 1px;
+    /* space between items */
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
