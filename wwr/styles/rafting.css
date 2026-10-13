@@ -86,7 +86,8 @@ h1 {
 }
 
 .hero article {
-
+    display: grid;
+    grid-template-columns: 5fr 1fr;
     position: absolute;
     bottom: 20px;
     width: 820px;
@@ -115,24 +116,36 @@ figcaption {
 
 .grid {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 5fr 3fr;
+    background-color: var(--tertiary-color);
 
 }
 
-.grid nav {
+/* .grid nav {
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
+    background-color: var(--tertiary-color);
+} */
+
+.flex {
+    display: flex;
+    gap: 250px;
     background-color: var(--tertiary-color);
 }
 
 .flex div {
     display: flex;
-    gap: 1px;
+    /* gap: 1px; */
     /* space between items */
     justify-content: space-evenly;
     align-items: center;
 
+}
+
+.flex img {
+    /* background-color: blue; */
+    margin: 0 0 0 90px;
 }
 
 .flex div a {
@@ -144,6 +157,7 @@ figcaption {
     border: 1px solid black;
     /* grid-column: end; */
     background-color: wheat;
+    width: 90px;
 }
 
 .history {
