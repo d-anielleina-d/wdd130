@@ -18,14 +18,6 @@ form {
     padding: 0 0 5rem 0;
     height: 90px;
     max-width: 490px;
-
-}
-
-h4 {
-    margin: 0;
-    text-align: center;
-    width: 100%;
-
 }
 
 .message-purpose {
@@ -53,7 +45,7 @@ iframe {
 .message-purpose div {
     width: 250px;
     display: grid;
-    grid-template-row: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
 }
 
 .message {
