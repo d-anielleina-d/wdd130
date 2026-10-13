@@ -60,6 +60,7 @@ iframe {
 textarea {
     width: 350px;
     margin: .5rem;
+    color: #000;
 }
 
 input:hover,
@@ -94,6 +95,7 @@ button {
 /* background-color: var(--primary-color); */
 
 * {
+    color: #000;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
