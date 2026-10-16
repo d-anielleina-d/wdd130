@@ -347,6 +347,11 @@ figcaption {
     left: -11;
 }
 
+.dan {
+    float: right;
+    color: white;
+}
+
 .vm {
     position: relative;
     margin: 10px 10px 0 10px;
@@ -384,6 +389,33 @@ figcaption {
 .hisp1,
 .hisp2 {
     color: var(--secondary-color);
+}
+
+.erc {
+    margin: 0 0 0 5px;
+    border: .5px solid #000;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid #000;
+}
+
+td {
+    border: 1px solid #000;
+}
+
+.ffr {
+    margin: 0 0 0 5px;
+    border: .5px solid #000;
+}
+
+.wwa {
+    margin: 0 0 0 5px;
+    border: .5px solid #000;
 }
 
 .hisi1 {
